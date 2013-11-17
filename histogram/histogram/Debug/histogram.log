@@ -1,4 +1,4 @@
-﻿已經開始建置於 2013/11/17 下午 05:01:11。
+﻿已經開始建置於 2013/11/17 下午 06:24:45。
      1>節點 2 (build 目標) 上的專案 "F:\GitHub\histogram-with-vs\histogram\histogram\histogram.vcxproj"。
      1>InitializeBuildStatus:
          由於指定了 "AlwaysCreate"，因此正在建立 "Debug\histogram.unsuccessfulbuild"。
@@ -12,8 +12,7 @@
      1>c:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
      1>c:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
      1>c:\opencv\build\include\opencv2\legacy\compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
-     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(17): warning C4101: 'V' : 未參考的區域變數
-     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(17): warning C4101: 'U' : 未參考的區域變數
+     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(29): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
        ManifestResourceCompile:
          所有輸出都是最新的。
        Link:
@@ -32,4 +31,4 @@
 
 建置成功。
 
-經過時間 00:00:02.56
+經過時間 00:00:01.78
