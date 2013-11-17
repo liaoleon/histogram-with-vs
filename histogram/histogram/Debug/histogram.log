@@ -1,9 +1,7 @@
-﻿已經開始建置於 2013/11/17 下午 02:48:04。
+﻿已經開始建置於 2013/11/17 下午 03:58:36。
      1>節點 2 (build 目標) 上的專案 "F:\GitHub\histogram-with-vs\histogram\histogram\histogram.vcxproj"。
-     1>PrepareForBuild:
-         正在建立目錄 "F:\GitHub\histogram-with-vs\histogram\Debug\"。
-       InitializeBuildStatus:
-         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\histogram.unsuccessfulbuild"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\histogram.unsuccessfulbuild"。
        ClCompile:
          D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt histogram.cpp
          histogram.cpp
@@ -14,23 +12,17 @@
      1>c:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
      1>c:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
      1>c:\opencv\build\include\opencv2\legacy\compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
-       ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\histogram.exe.embed.manifest.res" Debug\histogram_manifest.rc 
-       Link:
-         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GitHub\histogram-with-vs\histogram\Debug\histogram.exe" /INCREMENTAL /NOLOGO opencv_core247d.lib opencv_calib3d247d.lib opencv_contrib247d.lib opencv_features2d247d.lib opencv_highgui247d.lib opencv_imgproc247d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\histogram.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\GitHub\histogram-with-vs\histogram\Debug\histogram.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GitHub\histogram-with-vs\histogram\Debug\histogram.lib" /MACHINE:X86 Debug\histogram.exe.embed.manifest.res
-         Debug\histogram.obj
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\histogram.exe.embed.manifest" /manifest Debug\histogram.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\histogram.exe.embed.manifest.res" Debug\histogram_manifest.rc 
-       LinkEmbedManifest:
-         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GitHub\histogram-with-vs\histogram\Debug\histogram.exe" /INCREMENTAL /NOLOGO opencv_core247d.lib opencv_calib3d247d.lib opencv_contrib247d.lib opencv_features2d247d.lib opencv_highgui247d.lib opencv_imgproc247d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\histogram.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\GitHub\histogram-with-vs\histogram\Debug\histogram.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\GitHub\histogram-with-vs\histogram\Debug\histogram.lib" /MACHINE:X86 Debug\histogram.exe.embed.manifest.res
-         Debug\histogram.obj
-         histogram.vcxproj -> F:\GitHub\histogram-with-vs\histogram\Debug\histogram.exe
-       FinalizeBuildStatus:
-         正在刪除檔案 "Debug\histogram.unsuccessfulbuild"。
-         正在變更時間戳記 "Debug\histogram.lastbuildstate"。
-     1>專案 "F:\GitHub\histogram-with-vs\histogram\histogram\histogram.vcxproj" (build 目標) 建置完成。
+     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(23): error C2275: 'cv::Scalar' : 將此型別當做運算式的使用方式不合法
+                 c:\opencv\build\include\opencv2\core\core.hpp(964) : 請參閱 'cv::Scalar' 的宣告
+     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(23): error C2228: '.val' 的左邊必須有類別/結構/等位
+     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(24): error C2275: 'cv::Scalar' : 將此型別當做運算式的使用方式不合法
+                 c:\opencv\build\include\opencv2\core\core.hpp(964) : 請參閱 'cv::Scalar' 的宣告
+     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(24): error C2228: '.val' 的左邊必須有類別/結構/等位
+     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(25): error C2275: 'cv::Scalar' : 將此型別當做運算式的使用方式不合法
+                 c:\opencv\build\include\opencv2\core\core.hpp(964) : 請參閱 'cv::Scalar' 的宣告
+     1>f:\github\histogram-with-vs\histogram\histogram\histogram.cpp(25): error C2228: '.val' 的左邊必須有類別/結構/等位
+     1>專案 "F:\GitHub\histogram-with-vs\histogram\histogram\histogram.vcxproj" (build 目標) 建置完成 -- 失敗。
 
-建置成功。
+建置失敗。
 
-經過時間 00:00:04.55
+經過時間 00:00:01.12
